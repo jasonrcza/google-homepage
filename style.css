@@ -1,0 +1,16 @@
+.body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.logo{
+    align-content: center;
+}
+
+.nav_bar {
+    column-count: 2;
+    margin: 24px 0 30px 30px;
+    padding: 10px;
+}
