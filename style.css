@@ -1,10 +1,12 @@
-.body {
+.container {
     display: flex;
-    height: 100%;
-    width: 100%;
     flex-direction: column;
 }
 
+body {
+    height: 100%;
+    width: 100%;
+}
 .logo{
     align-content: center;
 }
@@ -13,4 +15,46 @@
     column-count: 2;
     margin: 24px 0 30px 30px;
     padding: 10px;
+    height: 30%;
+    width: 100%;
+}
+
+.nav_bar > ul:nth-child(1) > a:nth-child(1) {
+    padding: 0px 20px 0 0;
+}
+
+.nav_bar > ul:nth-child(2) > a:nth-child(1) {
+    padding: 0px 20px 0 0;
+}
+
+.nav_bar > ul:nth-child(2) {
+    margin-top: 10px;
+}
+
+.nav_bar > ul:nth-child(1) {
+    margin-bottom: 10px;
+}
+.nav_bar > ul:nth-child(2) > button:nth-child(3){
+    margin-left: 40px;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40%;
+    width: 100%;
+    align-items: center;
+}
+
+footer {
+    column-count: 2;
+    height: 30%;
+    width: 100%;
+    margin-top: 30px;
+}
+.logo {
+    margin: 30px 0 30px 0;
+}
+.search_bar {
+    margin-bottom: 35px;
 }
